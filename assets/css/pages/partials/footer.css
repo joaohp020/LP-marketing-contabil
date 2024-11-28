@@ -1,0 +1,29 @@
+footer {
+    background-color: var(--cor-preto);
+    height: 15rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+footer p {
+    color: var(--cor-branco);
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    opacity: 0.8;
+    margin: 0 0 0px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p span {
+    color: var(--cor-branco);
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    opacity: 0.5;
+    font-size: 43px;
+    margin: 0 20px 0 0;
+}

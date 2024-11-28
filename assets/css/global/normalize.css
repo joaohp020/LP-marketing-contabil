@@ -53,3 +53,12 @@ a.btnSecundario {
   font-size: 14px;
   font-family: "Work Sans", sans-serif;
 }
+
+hr {
+  width: 79%;
+  height: 1px;
+  border: 1px solid var(--cor-preto);
+  color: var(--cor-preto);
+  opacity: 0.5;
+  margin: 0 0 5rem 0;
+}

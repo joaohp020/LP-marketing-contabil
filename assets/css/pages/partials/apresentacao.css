@@ -1,8 +1,8 @@
 .apresentacao {
     background-image: url(../../../../files/img/img.png);
     background-size: cover;
-    /* background-position: center; */
-    height: 100vh;
+    background-position: center;
+    height: 95vh;
     padding: 0 160px;
     background-color: #f0f0f0;
     display: flex;
@@ -19,11 +19,12 @@
     color: var(--cor-branco);
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    width: 18rem;
-    font-size: 50px;
+    width: 25rem;
+    font-size: 67px;
+    line-height: 65px;
 }
 
-.apresentacao .title p {
+.apresentacao p.headline {
     color: var(--cor-branco);
     font-family: "Montserrat", sans-serif;
     margin: 1rem 0 1rem 0;
@@ -32,15 +33,16 @@
     font-weight: 100;
 }
 
-p.tag {
+.title p.tag {
     color: var(--cor-branco);
-    font-family: "Montserrat", sans-serif;
+    font-family: "Work Sans", sans-serif;
     padding: 12px 20px;
     background-color: var(--cor-azul-t);
     border-radius: 25px;
     width: 15rem;
     font-size: 14px;
     opacity: 0.8;
+    margin: 0 0 1rem 0;
 }
 
 .acoes {
@@ -62,7 +64,7 @@ p.tag {
     /* margin: 9rem 0 0 0; */
     position: absolute;
     left: 68%;
-    bottom: 28%;
+    bottom: 29%;
 }
 
 .mensagem-um {
@@ -88,8 +90,14 @@ p.tag {
     background-color: var(--cor-branco-t);
     border-radius: 30px;
     border: 1px solid var(--cor-branco-t);
-    font-size: 14px;
     margin: 0 0 0 17px;
+}
+
+.mensagem-um p,
+.mensagem-dois p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 200;
 }
 
 .box {
@@ -98,10 +106,10 @@ p.tag {
     position: absolute;
     width: 75.5rem;
     left: 0%;
-    top: 96%;
+    top: 93%;
     color: var(--cor-branco);
     padding: 2rem 3rem;
-    border-radius: 20px;
+    border-radius: 45px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -109,10 +117,10 @@ p.tag {
 }
 
 .box h3 {
-    font-size: 22px;
+    font-size: 32px;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    max-width: 18rem;
+    max-width: 26rem;
 }
 
 .box .linha {

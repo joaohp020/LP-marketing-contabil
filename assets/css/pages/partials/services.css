@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 240vh;
+    justify-content: end;
+    height: 275vh;
 }
 
 .services .topo {
@@ -86,7 +86,7 @@
 .card-rosa p,
 .card-preto p {
     font-family: "Work Sans", sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 300;
 }
 
@@ -140,6 +140,24 @@
     width: 35rem;
 }
 
+.imgCard {
+    width: 142px !important;
+}
+
 .descricao img {
     width: 50px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0 8rem 0;
+    gap: 1rem;
+}
+
+.rodape p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
 }

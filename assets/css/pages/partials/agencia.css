@@ -1,0 +1,63 @@
+.agencia {
+    background-color: var(--cor-cinza);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 55px 55px 0 0;
+}
+
+.agencia .headline {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.agencia .headline .title {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+}
+
+.agencia .headline .title h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    max-width: 30rem;
+}
+
+.agencia .headline .title h2 span {
+    color: var(--cor-azul-escuro);
+}
+
+.agencia p.descricao {
+    font-size: 28px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    color: var(--cor-preto-fosco);
+    opacity: 0.8;
+}
+
+.agencia .headline .texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0 0 0 5rem;
+    gap: 1rem;
+    max-width: 32rem;
+}
+
+.agencia .headline .texto .linha {
+    width: 1px;
+    height: 120px;
+    border: 1px solid var(--cor-preto);
+    margin: 0 0 0 15px;
+    opacity: 0.3;
+}
+
+#icon-agencia {
+    width: 100%;
+    max-width: 37rem;
+    margin: 4rem 0 0 0;
+}

@@ -1,0 +1,157 @@
+.contato {
+    background-color: var(--cor-azul-claro);
+    height: 130vh;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    gap: 6rem;
+    padding: 0 0px 0 10rem;
+}
+
+.contato .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 2rem;
+    justify-content: center;
+    height: 57rem;
+}
+
+.contato .headline .title {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+}
+
+.contato .headline .title h2 {
+    color: var(--cor-branco);
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.contato p.descricao {
+    font-size: 28px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    color: var(--cor-preto-fosco);
+    opacity: 0.8;
+}
+
+.contato .headline .texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0 0 0 -3rem;
+    gap: 1rem;
+    max-width: 45rem;
+}
+
+.contato .headline .texto .linha {
+    width: 1px;
+    height: 19rem;
+    border: 1px solid var(--cor-branco);
+    margin: 22rem 0 0 15px;
+    opacity: 0.3;
+    position: absolute;
+    left: 12%;
+}
+
+.contato .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: absolute;
+    margin: 21rem 0 0 -24rem;
+}
+
+.contato .card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #2E009D;
+    border-radius: 18px;
+    padding: 25px 37px;
+}
+
+
+.contato .card h4 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--cor-branco);
+}
+
+.contato .card p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: var(--cor-branco);
+    line-height: 30px;
+}
+
+.contato .formulario .title {
+    backdrop-filter: blur(50px);
+    border-radius: 25px !important;
+    overflow: hidden;
+}
+
+.contato .formulario {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: row;
+    width: 37rem;
+    margin: 1rem 0 0 0;
+    position: relative;
+    left: -1.2%;
+    bottom: -3%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 25rem;
+    height: 29.6rem;
+    background-color: var(--cor-branco);
+    padding: 22px 15px;
+    border-radius: 18px;
+    position: absolute;
+    left: 32.5%;
+}
+
+.form input {
+    border: 2px solid var(--cor-cinza);
+    height: 55px;
+    border-radius: 6px;
+    padding: 0 18px;
+}
+
+#nomeUsuario,
+#celular,
+#email {
+    color: var(--cor-branco);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+input#quantidadeCliente,
+input#faturamento,
+input#opcao {
+    color: var(--cor-preto);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600; 
+}
+
+#btnEnviar {
+    background: rgb(191, 2, 103);
+    background: linear-gradient(90deg, rgba(191, 2, 103, 1) 0%, rgba(74, 0, 255, 1) 100%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-branco);
+}

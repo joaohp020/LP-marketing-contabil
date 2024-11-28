@@ -1,3 +1,7 @@
 @import '../global/global.css';
 @import './partials/apresentacao.css';
 @import './partials/services.css';
+@import './partials/agencia.css';
+@import './partials/feedback.css';
+@import './partials/contato.css';
+@import './partials/footer.css';
