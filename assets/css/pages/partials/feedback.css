@@ -146,3 +146,55 @@ section.quemSomos p {
 section.quemSomos p span {
     font-weight: 500;
 }
+
+
+@media screen and (max-width: 768px) {
+    .feedback .topo h4 span {
+        font-size: 25px;
+        margin: 0 15px 0 0;
+    }
+
+    .feedback .topo h4.tag {
+        line-height: 42px;
+    }
+
+    .cards-feedback {
+        gap: 3rem;
+        max-width: 90vw;
+        overflow-x: scroll;
+        padding: 0px 0 35px 0;
+        overflow-y: hidden;
+    }
+
+    .cards-feedback .card p {
+        font-size: 14px;
+    }
+
+    section.quemSomos {
+        margin: -2rem 0px 0px 15px;
+        width: 91vw;
+        left: 0%;
+        border-radius: 31px;
+        justify-content: space-between;
+        height: 32rem;
+        flex-direction: column;
+    }
+
+    section.quemSomos .title {
+        width: 90vw;
+        height: 12rem;
+        border-radius: 30px;
+    }
+
+    section.quemSomos .title h2 {
+        font-size: 45px;
+    }
+
+    section.quemSomos p {
+        font-family: "Work Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0rem 0 3rem 0;
+        width: 90%;
+    }
+}

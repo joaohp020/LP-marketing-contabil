@@ -61,3 +61,57 @@
     max-width: 37rem;
     margin: 4rem 0 0 0;
 }
+
+
+@media screen and (max-width: 768px) {
+    .agencia {
+        height: 115vh;
+        flex-direction: column;
+        border-radius: 40px 40px 0 0;
+        justify-content: end;
+    }
+
+    .agencia .headline {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    #icon-agencia {
+        max-width: 90vw;
+        margin: 5rem 0 0 0;
+    }
+
+    .agencia .headline .title h2 {
+        font-size: 30px;
+        max-width: 90vw;
+    }
+
+    .agencia .headline .title {
+        align-items: start;
+        gap: 1rem;
+        justify-content: center;
+        width: 100% !important;
+        padding: 0 0 0 27px;
+    }
+
+    .agencia .headline .texto {
+        padding: 0px;
+        margin: 0 0 0 2rem;
+        gap: 1rem;
+        max-width: 95vw;
+    }
+
+    .agencia .headline .texto .linha {
+        margin: 0px;
+    }
+
+    .agencia p.descricao {
+        font-size: 19px;
+        font-family: "Work Sans", sans-serif;
+        font-weight: 300;
+        color: var(--cor-preto-fosco);
+        opacity: 0.8;
+        padding: 0 16px 0 0px;
+    }
+}

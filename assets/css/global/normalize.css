@@ -62,3 +62,16 @@ hr {
   opacity: 0.5;
   margin: 0 0 5rem 0;
 }
+
+
+@media screen and (max-width: 768px) {
+  a.btnPrincipal {
+    padding: 14px 18px;
+    font-size: 12px;
+  }
+
+  a.btnSecundario {
+    padding: 14px 25px;
+    font-size: 12px;
+  }
+}

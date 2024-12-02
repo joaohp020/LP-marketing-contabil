@@ -138,3 +138,60 @@
     font-weight: 300;
     /* padding: 0 7rem 0 0rem; */
 }
+
+@media screen and (max-width: 768px) {
+    .apresentacao {
+        background-size: cover;
+        background-position: center;
+        height: 95vh;
+        padding: 0 15px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .title h1 {
+        color: var(--cor-branco);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        width: 13rem;
+        font-size: 35px;
+        line-height: 34px;
+    }
+
+    .apresentacao p.headline {
+        color: var(--cor-branco);
+        font-family: "Montserrat", sans-serif;
+        margin: 1rem 0 1rem 0;
+        width: 82vw;
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .popup-mensagens {
+        display: none;
+    }
+
+    .box {
+        margin: 0 10px 0 10px;
+        width: 90%;
+        left: 0%;
+        top: 88%;
+        padding: 1rem 1.5rem;
+        height: 13.7rem;
+        flex-direction: column;
+        border-radius: 30px;
+    }
+
+    .box .linha {
+        width: 17rem;
+        height: 0px;
+        border: 1px solid var(--cor-branco);
+    }
+
+    .box h3 {
+        font-size: 17px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        max-width: 26rem;
+    }
+}
