@@ -166,7 +166,7 @@
 
 @media screen and (max-width: 768px) {
     .services {
-        height: 350vh;
+        height: 310vh;
     }
 
     .services .topo {
@@ -190,6 +190,10 @@
         margin: 1rem 0;
         flex-direction: column;
         gap: 25px;
+    }
+
+    #linha-dois {
+        flex-direction: column-reverse;
     }
 
     .card-azul p,
@@ -254,9 +258,8 @@
     }
 
     .rodape p {
-        font-size: 16px;
-        font-weight: 300;
+        font-size: 18px;
         width: 90vw;
-        /* text-align: center; */
+        text-align: center;
     }
 }

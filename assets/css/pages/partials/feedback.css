@@ -197,4 +197,12 @@ section.quemSomos p span {
         margin: 0rem 0 3rem 0;
         width: 90%;
     }
+
+    .feedback .rodape p {
+        font-family: "Work Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        color: var(--cor-branco);
+        text-align: center;
+    }
 }

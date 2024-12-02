@@ -173,25 +173,28 @@
 
     .box {
         margin: 0 10px 0 10px;
-        width: 90%;
+        width: 93%;
         left: 0%;
         top: 88%;
-        padding: 1rem 1.5rem;
-        height: 13.7rem;
+        padding: 1.7rem 1.5rem;
+        height: 15.7rem;
         flex-direction: column;
         border-radius: 30px;
     }
 
     .box .linha {
-        width: 17rem;
+        width: 21.5rem;
         height: 0px;
-        border: 1px solid var(--cor-branco);
     }
 
     .box h3 {
-        font-size: 17px;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 500;
+        font-size: 25px;
         max-width: 26rem;
+    }
+
+    .box p {
+        color: var(--cor-branco);
+        max-width: 30rem;
+        font-size: 16px;
     }
 }
