@@ -84,11 +84,11 @@
 
 @media (min-width: 320px) and (max-width: 768px) {
     .agencia {
-        height: 115vh;
+        height: 145vh;
         flex-direction: column;
         border-radius: 40px 40px 0 0;
         justify-content: end;
-        gap: 10rem;
+        gap: 6rem;
     }
 
     .agencia .headline {
@@ -105,18 +105,18 @@
     .agencia .video img {
         position: relative;
         top: 2rem;
-        width: 22rem;
+        width: 19rem;
     }
 
     .agencia iframe {
-        left: 30%;
-        width: 211px;
-        height: 380px;
+        left: 28%;
+        width: 196px;
+        height: 345px;
         top: -60px;
     }
 
     .agencia .headline .title h2 {
-        font-size: 40px;
+        font-size: 35px;
         max-width: 71vw;
     }
 

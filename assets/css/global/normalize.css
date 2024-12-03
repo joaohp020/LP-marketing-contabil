@@ -78,12 +78,12 @@ hr {
 @media screen and (max-width: 768px) {
   a.btnPrincipal {
     padding: 14px 18px;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   a.btnSecundario {
     padding: 14px 25px;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   hr {

@@ -168,14 +168,41 @@ section.quemSomos p span {
 }
 
 
+@media (min-width: 320px) {
+    .feedback {
+        height: 206vh;
+    }
+}
+
 @media (min-width: 320px) and (max-width: 768px) {
     .feedback {
-        height: 135vh;
+        height: 192vh;
     }
 
     .depoimentos {
         padding: 0px 15px;
         flex-direction: column;
+    }
+
+    h4.l-dois {
+        margin: 18px 0 0 36px;
+        font-size: 23px;
+    }
+
+    .feedback .topo p {
+        font-size: 14px;
+        font-weight: 300;
+        margin: 30px 0 0 36px;
+        letter-spacing: 1px;
+    }
+
+    #depoimentoUm {
+        margin: 0 0 32px 0;
+    }
+
+    .cards-feedback .card h4 {
+        font-size: 18px;
+        margin: 10px 0 8px 0;
     }
 
     .feedback hr {
@@ -206,6 +233,7 @@ section.quemSomos p span {
 
     .cards-feedback .card p {
         font-size: 14px;
+        width: 100%;
     }
 
     section.quemSomos {
@@ -214,26 +242,26 @@ section.quemSomos p span {
         left: 0%;
         border-radius: 31px;
         justify-content: space-between;
-        height: 32rem;
+        height: 28rem;
         flex-direction: column;
     }
 
     section.quemSomos .title {
         width: 90vw;
-        height: 12rem;
+        height: 10rem;
         border-radius: 30px;
     }
 
     section.quemSomos .title h2 {
-        font-size: 45px;
+        font-size: 35px;
     }
 
     section.quemSomos p {
         font-family: "Work Sans", sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         margin: 0rem 0 3rem 0;
-        width: 90%;
+        width: 89%;
     }
 
     .feedback .rodape p {

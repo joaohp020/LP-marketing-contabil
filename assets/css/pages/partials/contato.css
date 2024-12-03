@@ -156,6 +156,15 @@ input#opcao {
     color: var(--cor-branco);
 }
 
+@media (min-width: 320px) {
+    .contato {
+        height: 277vh;
+    }
+
+    .contato .headline .title h2 {
+        font-size: 28px;
+    }
+}
 
 @media (min-width: 320px) and (max-width: 768px) {
     .contato .feedback .topo {
@@ -164,7 +173,7 @@ input#opcao {
     }
 
     .contato {
-        height: 189vh;
+        height: 239vh;
         align-items: end;
         justify-content: start;
         gap: 1rem;
@@ -177,7 +186,7 @@ input#opcao {
         align-items: flex-end;
         gap: 5rem;
         height: 68rem;
-        margin: 18rem 0 0 0;
+        margin: 15rem 0 0 0;
         width: 100%;
     }
 
@@ -197,7 +206,7 @@ input#opcao {
     }
 
     .contato .headline .title h2 {
-        font-size: 35px;
+        font-size: 28px;
     }
 
     .contato .headline .texto .linha {
@@ -222,9 +231,13 @@ input#opcao {
         padding: 25px 25px;
     }
 
+    .contato .card h4 {
+        font-size: 19px;
+    }
+
     .contato .card p {
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 14px;
+        line-height: 16px;
     }
 
     .contato .formulario {
