@@ -45,6 +45,11 @@ a.btnPrincipal {
   font-family: "Work Sans", sans-serif;
 }
 
+a.btnPrincipal:hover {
+  background-color: var(--cor-preto);
+  box-shadow: 0 0 15px -7px var(--cor-branco);
+}
+
 a.btnSecundario {
   color: var(--cor-branco);
   padding: 14px 35px;
@@ -52,6 +57,12 @@ a.btnSecundario {
   border-radius: 25px;
   font-size: 14px;
   font-family: "Work Sans", sans-serif;
+}
+
+a.btnSecundario:hover {
+  background-color: var(--cor-branco);
+  box-shadow: 0 0 15px -7px var(--cor-branco);
+  color: var(--cor-preto);
 }
 
 hr {
@@ -73,5 +84,26 @@ hr {
   a.btnSecundario {
     padding: 14px 25px;
     font-size: 12px;
+  }
+
+  hr {
+    width: 97%;
+  }
+}
+
+@media (min-width: 1980px) and (max-width: 2560px) {
+  a.btnPrincipal {
+    padding: 20px 52px;
+    border-radius: 55px;
+    font-size: 28px;
+  }
+
+  a.btnSecundario {
+    color: var(--cor-branco);
+    padding: 20px 50px;
+    border: 1px solid var(--cor-branco);
+    border-radius: 55px;
+    font-size: 28px;
+    font-family: "Work Sans", sans-serif;
   }
 }

@@ -41,3 +41,18 @@ footer p span {
         font-size: 12px;
     }
 }
+
+@media (min-width: 1980px) and (max-width: 2560px) {
+    footer {
+        height: 28rem;
+        gap: 2.5rem;
+    }
+
+    footer img {
+        width: 195px;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+}

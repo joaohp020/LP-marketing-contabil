@@ -157,14 +157,14 @@ input#opcao {
 }
 
 
-@media screen and (max-width: 768px) {
-    .feedback .topo {
+@media (min-width: 320px) and (max-width: 768px) {
+    .contato .feedback .topo {
         margin: 10rem 0 3rem 0;
         padding: 0 20px;
     }
 
     .contato {
-        height: 207vh;
+        height: 189vh;
         align-items: end;
         justify-content: start;
         gap: 1rem;
@@ -177,7 +177,7 @@ input#opcao {
         align-items: flex-end;
         gap: 5rem;
         height: 68rem;
-        margin: 12rem 0 0 0;
+        margin: 18rem 0 0 0;
         width: 100%;
     }
 
@@ -271,5 +271,92 @@ input#opcao {
     input#faturamento,
     input#opcao {
         font-size: 12px;
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1440px) {
+    .contato {
+        height: 102vh;
+    }
+}
+
+@media (min-width: 1980px) and (max-width: 2560px) {
+    .contato {
+        height: 110vh;
+        gap: 6rem;
+        padding: 0 21rem;
+    }
+
+    .contato .headline {
+        gap: 6rem;
+        height: 71rem;
+    }
+
+    .contato .headline .title h2 {
+        font-size: 85px;
+    }
+
+    .contato .headline .texto .linha {
+        width: 1px;
+        height: 22rem;
+        margin: 22rem 0 0 15px;
+        left: 14.5%;
+    }
+
+    .contato .cards {
+        gap: 2rem;
+        margin: 21rem 0 0 -34rem;
+    }
+
+    .contato .card h4 {
+        font-size: 35px;
+    }
+
+    .contato .card p {
+        font-family: "Work Sans", sans-serif;
+        font-size: 28px;
+        line-height: 42px;
+    }
+
+    .formulario .title img {
+        width: 43rem;
+    }
+
+    .contato .formulario {
+        width: 44rem;
+        margin: 1rem 0 0 0;
+        left: 15.8%;
+        bottom: -4%;
+    }
+
+    .form {
+        gap: 20px;
+        width: 36.4rem;
+        height: 43.6rem;
+        padding: 38px 30px;
+        left: 17.5%;
+    }
+
+    .form input {
+        border: 3px solid var(--cor-cinza);
+        height: 68px;
+        border-radius: 8px;
+        padding: 0 18px;
+    }
+
+    #nomeUsuario,
+    #celular,
+    #email {
+        font-size: 24px;
+    }
+
+    input#quantidadeCliente,
+    input#faturamento,
+    input#opcao {
+        font-size: 24px;
+    }
+
+    #btnEnviar {
+        font-size: 26px;
     }
 }

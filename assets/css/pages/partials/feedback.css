@@ -1,6 +1,6 @@
 .feedback {
     background-color: var(--cor-preto);
-    height: 150vh;
+    height: 120vh;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -10,17 +10,32 @@
 .feedback .topo {
     margin: 10rem 0 3rem 0;
     width: 100%;
-    padding: 0 17rem;
+    /* padding: 0 0 0 17.1rem; */
 }
 
 .feedback .topo h4 {
     font-family: "Montserrat", sans-serif;
     color: var(--cor-branco);
-    font-size: 30px;
+    /* font-size: 30px; */
 }
 
-.l-dois {
+h4.tag {
+    padding: 0 0px 0 0;
+    line-height: 46px;
+    font-size: 23px;
+}
+
+h4.l-dois {
     margin: 18px 0 0 59px;
+    font-size: 23px;
+}
+
+.depoimentos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0px 17rem;
 }
 
 .feedback .topo p {
@@ -38,7 +53,7 @@
     background-color: var(--cor-branco-t);
     border: 2px solid var(--cor-branco-t);
     border-radius: 30px;
-    font-size: 30px;
+    font-size: 26px;
     padding: 8px 22px;
     margin: 0 15px 0 0;
 }
@@ -50,7 +65,7 @@
     gap: 3rem;
     width: 100%;
     max-width: 100vw;
-    margin: 1rem 0;
+    margin: 7rem 0 0 0;
 }
 
 .cards-feedback .card {
@@ -58,6 +73,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#depoimentoUm,
+#depoimentoDois {
+    cursor: pointer;
 }
 
 .cards-feedback .card h4 {
@@ -148,7 +168,25 @@ section.quemSomos p span {
 }
 
 
-@media screen and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
+    .feedback {
+        height: 135vh;
+    }
+
+    .depoimentos {
+        padding: 0px 15px;
+        flex-direction: column;
+    }
+
+    .feedback hr {
+        width: 85%;
+    }
+
+    .feedback .topo {
+        margin: 10rem 0 0rem 0;
+        padding: 0 20px;
+    }
+
     .feedback .topo h4 span {
         font-size: 25px;
         margin: 0 15px 0 0;
@@ -204,5 +242,104 @@ section.quemSomos p span {
         font-weight: 300;
         color: var(--cor-branco);
         text-align: center;
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1440px) {
+    .feedback {
+        height: 120vh;
+    }
+}
+
+@media (min-width: 1980px) and (max-width: 2560px) {
+    .feedback {
+        height: 102vh;
+        padding: 0 21rem;
+    }
+
+    .depoimentos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .feedback .topo {
+        margin: 17rem 0 3rem 0;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .feedback .topo h4 span {
+        border-radius: 57px;
+        font-size: 55px;
+        padding: 7px 22px;
+        margin: 0 15px 0 0;
+    }
+
+    h4.tag {
+        line-height: 46px;
+        font-size: 55px;
+    }
+
+    h4.l-dois {
+        margin: 18px 0 0 59px;
+        font-size: 55px;
+    }
+
+    .feedback .topo p {
+        font-size: 35px;
+    }
+
+    #depoimentoUm img {
+        width: 245px;
+    }
+
+    #depoimentoDois img {
+        width: 245px;
+        margin: 12px 0 0 0;
+    }
+
+    .cards-feedback {
+        width: 69%;
+        margin: 13rem 0 0 0;
+    }
+
+    .cards-feedback .card p {
+        font-size: 26px;
+    }
+
+    .cards-feedback #depoimentoUm h4 {
+        font-size: 32px;
+        margin: 10px 0 8px 0;
+    }
+
+    .cards-feedback #depoimentoDois h4 {
+        font-size: 32px;
+        margin: 15px 0 8px 0;
+    }
+
+    .feedback hr {
+        width: 100%;
+    }
+
+    .feedback .rodape p {
+        font-size: 32px;
+    }
+
+    section.quemSomos {
+        margin: -9rem 21rem 0 21rem;
+        width: 73.5%;
+        border-radius: 45px;
+        height: 28rem;
+    }
+
+    section.quemSomos .title h2 {
+        font-size: 75px;
+    }
+
+    section.quemSomos p {
+        font-size: 30px;
     }
 }

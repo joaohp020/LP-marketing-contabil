@@ -1,6 +1,6 @@
 .agencia {
     background-color: var(--cor-cinza);
-    height: 100vh;
+    height: 107vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,13 +62,33 @@
     margin: 4rem 0 0 0;
 }
 
+.agencia .video {
+    position: relative;
+}
 
-@media screen and (max-width: 768px) {
+.agencia .video img {
+    position: relative;
+    top: 7rem;
+}
+
+.agencia iframe {
+    position: absolute;
+    left: 31%;
+    width: 339px;
+    height: 600px;
+    border: 3px solid var(--cor-preto);
+    border-radius: 30px;
+    top: 20px;
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
     .agencia {
         height: 115vh;
         flex-direction: column;
         border-radius: 40px 40px 0 0;
         justify-content: end;
+        gap: 10rem;
     }
 
     .agencia .headline {
@@ -82,6 +102,19 @@
         margin: 5rem 0 0 0;
     }
 
+    .agencia .video img {
+        position: relative;
+        top: 2rem;
+        width: 22rem;
+    }
+
+    .agencia iframe {
+        left: 30%;
+        width: 211px;
+        height: 380px;
+        top: -60px;
+    }
+
     .agencia .headline .title h2 {
         font-size: 40px;
         max-width: 71vw;
@@ -92,12 +125,12 @@
         gap: 1rem;
         justify-content: center;
         width: 100% !important;
-        padding: 0 0 0 50px;
+        padding: 0px;
     }
 
     .agencia .headline .texto {
         padding: 0px;
-        margin: 0 0 0 2rem;
+        margin: 0rem;
         gap: 1rem;
         max-width: 95vw;
     }
@@ -113,5 +146,47 @@
         color: var(--cor-preto-fosco);
         opacity: 0.8;
         padding: 0 16px 0 0px;
+    }
+}
+
+@media (min-width: 1980px) and (max-width: 2560px) {
+    .agencia {
+        height: 78vh;
+        border-radius: 110px 95px 0 0;
+        gap: 15rem;
+    }
+
+    .agencia .headline .title img {
+        width: 80px;
+    }
+
+    .agencia .headline .title h2 {
+        font-size: 85px;
+        max-width: 37rem;
+    }
+
+    .agencia .headline .texto {
+        margin: 0 0 0 5rem;
+        max-width: 38rem;
+    }
+
+    .agencia .headline .texto .linha {
+        height: 156px;
+    }
+
+    .agencia p.descricao {
+        font-size: 35px;
+    }
+
+    .agencia .video img {
+        top: 7rem;
+        width: 47rem;
+    }
+
+    .agencia iframe {
+        left: 31%;
+        width: 404px;
+        height: 716px;
+        top: 34px;
     }
 }
