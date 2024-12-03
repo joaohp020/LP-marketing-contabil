@@ -281,11 +281,15 @@
 
 @media (min-width: 1366px) and (max-width: 1440px) {
     .services {
-        height: 320vh;
+        height: 216vh;
     }
 
     .services .cards {
         gap: 1rem;
+    }
+
+    .services .title p {
+        font-size: 20px;
     }
 }
 

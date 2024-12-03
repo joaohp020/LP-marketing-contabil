@@ -276,7 +276,7 @@ section.quemSomos p span {
 
 @media (min-width: 1366px) and (max-width: 1440px) {
     .feedback {
-        height: 150vh;
+        height: 100vh;
     }
 }
 
