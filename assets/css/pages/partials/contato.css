@@ -155,7 +155,7 @@ input#opcao {
     font-weight: 500;
     color: var(--cor-branco);
 }
-
+/* 
 @media (min-width: 320px) {
     .contato {
         height: 277vh;
@@ -164,7 +164,7 @@ input#opcao {
     .contato .headline .title h2 {
         font-size: 28px;
     }
-}
+} */
 
 @media (min-width: 320px) and (max-width: 768px) {
     .contato .feedback .topo {

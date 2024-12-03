@@ -168,11 +168,11 @@ section.quemSomos p span {
 }
 
 
-@media (min-width: 320px) {
+/* @media (min-width: 320px) {
     .feedback {
         height: 206vh;
     }
-}
+} */
 
 @media (min-width: 320px) and (max-width: 768px) {
     .feedback {
