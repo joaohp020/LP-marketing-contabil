@@ -91,6 +91,12 @@ hr {
   }
 }
 
+@media (min-width: 1366px) and (max-width: 1440px) {
+  hr {
+    width: 100%;
+  }
+}
+
 @media (min-width: 1980px) and (max-width: 2560px) {
   a.btnPrincipal {
     padding: 20px 52px;

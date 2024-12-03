@@ -281,7 +281,7 @@
 
 @media (min-width: 1366px) and (max-width: 1440px) {
     .services {
-        height: 215vh;
+        height: 320vh;
     }
 
     .services .cards {
