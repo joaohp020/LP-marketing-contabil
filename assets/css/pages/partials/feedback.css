@@ -93,6 +93,7 @@ h4.l-dois {
     font-family: "Work Sans", sans-serif;
     font-size: 16px;
     font-weight: 300;
+    width: 100%;
 }
 
 .feedback hr {
