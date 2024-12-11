@@ -3,8 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: end;
-    /* height: 249vh; */
-    height: 275vh;
+    height: 275vh !important;
     padding: 0 10.5rem;
 }
 
@@ -13,7 +12,6 @@
     flex-direction: row;
     /* padding: 0 160px; */
     justify-content: space-between;
-    gap: 14rem;
     margin: 3rem 0;
 }
 
@@ -273,15 +271,9 @@
     }
 }
 
-/* @media screen and (max-width: 375px) {
+@media (min-width: 1024px) and (max-width: 1580px) {
     .services {
-        height: 390vh;
-    }
-} */
-
-@media (min-width: 1366px) and (max-width: 1440px) {
-    .services {
-        height: 216vh;
+        height: 270vh !important;
     }
 
     .services .cards {
@@ -290,6 +282,10 @@
 
     .services .title p {
         font-size: 20px;
+    }
+
+    .services .topo {
+        gap: 1rem;
     }
 }
 

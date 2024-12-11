@@ -1,6 +1,6 @@
 .feedback {
     background-color: var(--cor-preto);
-    height: 120vh;
+    height: 125vh !important;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -68,11 +68,12 @@ h4.l-dois {
     margin: 7rem 0 0 0;
 }
 
-.cards-feedback .card {
+.cards-feedback .card-feedback {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-decoration: none !important;
 }
 
 #depoimentoUm,
@@ -80,7 +81,7 @@ h4.l-dois {
     cursor: pointer;
 }
 
-.cards-feedback .card h4 {
+.cards-feedback .card-feedback h4 {
     color: var(--cor-branco);
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
@@ -88,7 +89,7 @@ h4.l-dois {
     margin: 10px 0 8px 0;
 }
 
-.cards-feedback .card p {
+.cards-feedback .card-feedback p {
     color: var(--cor-branco);
     font-family: "Work Sans", sans-serif;
     font-size: 16px;
@@ -123,7 +124,7 @@ section.quemSomos {
     background-color: #E6DCFF;
     margin: -9rem 10rem 0 10rem;
     position: absolute;
-    width: 75.5rem;
+    width: 79.5%;
     left: 0%;
     color: var(--cor-preto);
     /* padding: 2rem 3rem; */
@@ -201,7 +202,7 @@ section.quemSomos p span {
         margin: 0 0 32px 0;
     }
 
-    .cards-feedback .card h4 {
+    .cards-feedback .card-feedback h4 {
         font-size: 18px;
         margin: 10px 0 8px 0;
     }
@@ -232,7 +233,7 @@ section.quemSomos p span {
         overflow-y: hidden;
     }
 
-    .cards-feedback .card p {
+    .cards-feedback .card-feedback p {
         font-size: 14px;
         width: 100%;
     }
@@ -274,9 +275,16 @@ section.quemSomos p span {
     }
 }
 
-@media (min-width: 1366px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
     .feedback {
-        height: 100vh;
+        height: 145vh;
+    }
+
+    section.quemSomos {
+        background-color: #E6DCFF;
+        margin: -9rem 10rem 0 10rem;
+        border-radius: 35px;
+        height: 17rem !important;
     }
 }
 
@@ -335,7 +343,7 @@ section.quemSomos p span {
         margin: 13rem 0 0 0;
     }
 
-    .cards-feedback .card p {
+    .cards-feedback .card-feedback p {
         font-size: 26px;
     }
 
